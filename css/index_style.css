@@ -1,0 +1,136 @@
+body
+{
+    font-size: 1rem;
+    font-family: "Alegreya Sans";
+}
+.first
+{
+    background-image: url(/images/bgPhotoHeader.jpg) !important;
+    height: 100vh;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+
+}
+.first-caption
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+.first-caption a
+{
+    
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.first-caption h1{
+    font-size: 4.2rem;
+    font-weight: 400;
+
+}
+
+.first-caption p
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+/* buttons */
+.first-caption .learn 
+{
+    background-color: #8e7754;
+    border: transparent 3px solid;
+}
+.first-caption .contact 
+{
+    background-color: transparent;
+    border: #fff 3px  solid;
+}
+
+/* hover */
+.first-caption .contact:hover
+{
+    background-color: #fff;
+}
+
+.first-caption .learn:hover
+{
+    background-color: #fff;}
+
+.first-caption .learn:hover 
+{
+    color: black !important;
+}
+
+ .contact:hover 
+{
+  color: rgb(0, 0, 0) !important;
+}
+
+.icons
+{
+    width: 3%;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(90, 87, 87);
+    flex-direction: column;
+    padding: 5px 10PX;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 4;
+
+}
+
+.icons i:hover
+{
+    color:rgb(0, 106, 245);
+}
+
+.color-accent
+{
+   color: #8e7754;
+}
+.bg-color-accent
+{
+    background-color: #8e7754;
+    color: beige;
+    font-size: 1rem !important;
+}
+.about_list li
+{
+ list-style: none;
+
+}
+
+.about_list
+{
+    padding-left: 0% !important;
+}
+
+.about_list i
+{
+    border-radius: 50%;
+    border: rgba(0,0,0,.15) 1px solid;
+    padding: 12px;
+    font-size: 1.4rem;
+
+}
+
+.location , .contact
+{
+    background-color: #f8f8f8;
+}
+    
+
